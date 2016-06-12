@@ -1,18 +1,370 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+<head>
+
+	<!-- start: Meta -->
+	<meta charset="utf-8">
+	<title>ポートフォリオサイト</title> 
+	<meta name="description" content="ポートフォリオサイトです。web制作だけでなくイラストも作成しています。"/>
+	<!-- end: Meta -->
+	
+	<!-- start: Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- end: Mobile Specific -->
+
+    <!-- start: CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/slider1.css" rel="stylesheet">
+	<link href="css/slider3.css" rel="stylesheet">
+	<link href="css/site.css" rel="stylesheet">
+	<!-- end: CSS -->
+
+</head>
+<body>
+	
+	<header>
+	<!--start: Header -->
+		
+		<!--start: Container -->
+		<div class="container">
+						
+			<!--start: Row -->
+			<div class="row-fluid">
+					
+				<!--start: Navigation -->
+				<div class="navigation"> 
+				
+					<div class="navbar navbar-fixed-top">
+			    		<div class="navbar-inner">
+			          		<a class="btn btn-navbar btnOverlay" data-toggle="collapse" data-target=".nav-collapse">
+			            		menu
+			          		</a>
+			          		<div class="nav-collapse collapse">
+			            		<ul class="nav">
+									<li><a href="#" class="portfolio">Home</a></li>
+			              			<li><a href="#" class="portfolio">portfolio</a></li>
+									<li><a href="#" class="about">about</a></li>
+			            		</ul>
+			          		</div>
+			        	</div>
+			      	</div>
+				
+				
+				</div>	
+				<!--end: Navigation -->	
+					
+			</div>
+			<!--end: Row -->
+			
+		</div>
+		<!--end: Container-->			
+			
+	</header>
+	<!--end: Header-->
+
+	
+	
+
+	<!-- start: 4th Page - Portfolio -->
+	<div id="portfolio" class="color white">
+		
+		<!--start: Container -->
+		<div class="container">
+
+			<!--start: Wrapper -->
+			<div class="wrapper span12">
+	
+							<!-- start: Page Title -->
+			<div id="page-title">
+
+				<div id="page-title-inner">
+
+					<h2><span>Portfolio</span></h2>
+
+				</div>	
+
+			</div>
+			<!-- end: Page Title -->
+			
+			<div id="js-mainvis" class="mainvis cfx">
+			
+			</div>
+
+			<div id="filters">
+				<ul class="option-set" data-option-key="filter">
+					<li><a href="#filter" class="selected" data-option-value="*">All</a></li>
+					<li>/</li>
+					<li><a href="#filter" data-option-value=".Services">Services</a></li>
+					<li>/</li>
+					<li><a href="#filter" data-option-value=".illustrator">illustrator</a></li>
+				</ul>
+			</div>
+
+			<!-- start: Portfolio -->
+			<div id="portfolio-wrapper" class="row-fluid">
+				<div class="span4 portfolio-item website Services">
+					<a href="">
+						<div class="picture"><img src="img/portfolio/commingsoon.jpg" alt=""/><div class="image-overlay-link"></div>
+						<div class="item-description alt">
+							<h5>何かのサービス1</h5>
+							<p>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+							</p>
+						</div>
+					</a>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website Services">
+					<a href="">
+						<div class="picture"><img src="img/portfolio/commingsoon.jpg" alt=""/><div class="image-overlay-link"></div>
+						<div class="item-description alt">
+							<h5>何かのサービス2</h5>
+							<p>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+							</p>
+						</div>
+					</a>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website Services">
+					<a href="">
+						<div class="picture"><img src="img/portfolio/commingsoon.jpg" alt=""/><div class="image-overlay-link"></div>
+						<div class="item-description alt">
+							<h5>何かのサービス3</h5>
+							<p>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+							</p>
+						</div>
+					</a>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website Services">
+					<a href="">
+						<div class="picture"><img src="img/portfolio/commingsoon.jpg" alt=""/><div class="image-overlay-link"></div>
+						<div class="item-description alt">
+							<h5>何かのサービス4</h5>
+							<p>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+							</p>
+						</div>
+					</a>
+					</div>	
+				</div>
+			
+								
+				<div class="span4 portfolio-item website illustrator">
+					<div class="picture"><img src="img/portfolio/ill01.jpg" alt=""/><div></div>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website illustrator">
+					<div class="picture"><img src="img/portfolio/ill13.jpg" alt=""/><div></div>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website illustrator">
+					<div class="picture"><img src="img/portfolio/ill02.jpg" alt=""/><div></div>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website illustrator">
+					<div class="picture"><img src="img/portfolio/ill03.jpg" alt=""/><div></div>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website illustrator">
+					<div class="picture"><img src="img/portfolio/ill04.jpg" alt=""/><div></div>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website illustrator">
+					<div class="picture"><img src="img/portfolio/ill05.jpg" alt=""/><div></div>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website illustrator">
+					<div class="picture"><img src="img/portfolio/ill06.jpg" alt=""/><div></div>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website illustrator">
+					<div class="picture"><img src="img/portfolio/ill07.jpg" alt=""/><div></div>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website illustrator">
+					<div class="picture"><img src="img/portfolio/ill08.jpg" alt=""/><div></div>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website illustrator">
+					<div class="picture"><img src="img/portfolio/ill09.jpg" alt=""/><div></div>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website illustrator">
+					<div class="picture"><img src="img/portfolio/ill10.jpg" alt=""/><div></div>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website illustrator">
+					<div class="picture"><img src="img/portfolio/ill11.jpg" alt=""/><div></div>
+					</div>	
+				</div>
+				<div class="span4 portfolio-item website illustrator">
+					<div class="picture"><img src="img/portfolio/ill12.jpg" alt=""/><div></div>
+					</div>	
+				</div>
+
+		
+			</div>
+			<!-- end: Portfolio -->
+			</div>
+			<!-- end: Wrapper -->
+		
+		</div>
+		<!--end: Container -->
+		
+	</div>
+	<!-- end: 4th Page - Portfolio -->
+	
+	<!-- start: 5th Page - About -->
+	<div id="about" class="color blue">
+		
+		<!--start: Container -->
+		<div class="container">
+
+			<!--start: Wrapper -->
+			<div class="wrapper span12">
+
+							<!-- start: Page Title -->
+			<div id="page-title">
+
+				<div id="page-title-inner">
+
+						<h2><span>About Me</span></h2>
+
+				</div>	
+
+			</div>
+			<!-- end: Page Title -->				
+		
+		
+			
+			<!-- start: Row -->
+			<div class="row-fluid">		
+				<div class="span12">
+					<h3 class="mod-title">個人的な趣味</h3>
+					<div class="inner-about">
+						<ul class="hobby-lists">
+							<li>
+								<p class="hobby-title">海外ドラマ</p>
+								<div class="hobby-desc">
+								<p>数えたら20くらい見てました。現在はまってるのは『ゲーム・オブ・スローンズ』、と遅すぎる『HEROES』。</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+			<!--end: Row -->
+			</div>
+			<!-- end: Wrapper -->
+		
+		</div>
+		<!--end: Container -->
+		
+	</div>
+	<!-- end: 5th Page - About -->
+	
+
+
+	
+
+	<footer>
+		
+		
+	</footer>	
+
+<!-- start: Java Script -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/isotope.js"></script>
+<script type="text/javascript" src="js/jquery.imagesloaded.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/flexslider.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript" src="js/fancybox.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
+<script type="text/javascript" src="js/jquery.slitslider.js"></script>
+<script type="text/javascript" src="js/jquery.flot.min.js"></script>
+<script type="text/javascript" src="js/jquery.flot.pie.min.js"></script>
+<script type="text/javascript" src="js/jquery.flot.stack.js"></script>
+<script type="text/javascript" src="js/jquery.flot.resize.min.js"></script>
+<script defer="defer" src="js/custom.js"></script>
+<script defer="defer" src="js/site.js"></script>
+<script type="text/javascript">	
+	$(function() {
+	
+		var Page = (function() {
+
+			var $navArrows = $( '#nav-arrows' ),
+				$nav = $( '#nav-dots > span' ),
+				slitslider = $( '#slider' ).slitslider( {
+					onBeforeChange : function( slide, pos ) {
+
+						$nav.removeClass( 'nav-dot-current' );
+						$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+					}
+				} ),
+
+				init = function() {
+
+					initEvents();
+					
+				},
+				initEvents = function() {
+
+					// add navigation events
+					$navArrows.children( ':last' ).on( 'click', function() {
+
+						slitslider.next();
+						return false;
+
+					} );
+
+					$navArrows.children( ':first' ).on( 'click', function() {
+						
+						slitslider.previous();
+						return false;
+
+					} );
+
+					$nav.each( function( i ) {
+					
+						$( this ).on( 'click', function( event ) {
+							
+							var $dot = $( this );
+							
+							if( !slitslider.isActive() ) {
+
+								$nav.removeClass( 'nav-dot-current' );
+								$dot.addClass( 'nav-dot-current' );
+							
+							}
+							
+							slitslider.jump( i + 1 );
+							return false;
+						
+						} );
+						
+					} );
+
+				};
+
+				return { init : init };
+
+		})();
+
+		Page.init();
+	
+	});
+</script>
+<!-- end: Java Script -->
+
+</body>
 </html>

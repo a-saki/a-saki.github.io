@@ -1,0 +1,56 @@
+#portfolio-wrapper a:hover {
+    text-decoration: none;
+}
+
+#about .pro_me img {
+    width: 100px;
+}
+#portfolio .mainvis {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+#portfolio .mainvis .rect {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#portfolio .mainvis  div {
+     height: 20px;
+}
+.mod-title {
+    padding-left: 10px;
+    border-left: 2px solid #fff;
+}
+.hobby-title {
+    padding: 0 5px;
+    display: inline-block;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+}
+.hobby-desc {
+    margin-left: 5px;
+}
+.hobby-lists {
+    margin-left: 18px;
+}
+.hobby-lists li {
+    margin-top: 10px;
+}
+.hobby-lists p {
+    margin: 0;
+}
+.hobby-title {
+    font-size: 14px;
+}
+.cfx:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+@media (min-width: 768px) {
+  #portfolio .mainvis {
+    height: 300px;
+  }
+}
